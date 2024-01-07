@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,600;1,800&display=swap");
+
+/* création des variables */
+:root {
+  --primary-color: #00a9ff;
+  --secondary-color: #89cff3;
+  --ternary-color: #a0e9ff;
+  --bg-color: #adbbff24;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+body {
+  font-family: poppins;
+}
+
+table,
+tr,
+td {
+  border: solid 2.5px #ffffff;
+  border-collapse: collapse;
+  font-size: 18px;
+}
+td {
+  text-align: center;
+  width: 100px;
+  height: 15px;
+}
+
+table {
+  overflow: hidden;
+  width: 80%;
+  height: 80%;
+  /* margin: 0 auto; */
+  background-color: var(--bg-color);
+  border-radius: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.jours {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+.heures {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
